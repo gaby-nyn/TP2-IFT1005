@@ -26,23 +26,29 @@ section:nth-child(even) { background-color: pink;  }
 
 /*** panneau-identification ***/
 #panneau-identification{
-    text-align: center;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(33, 129, 232);
 }
 
 #panneau-identification h1{
+    position:absolute;
     font-size:20vh;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    top: 10vh;
+    right:10vh;
 }
 #panneau-identification h2{
+    position:absolute;
     font-size:12.5vh;
-    padding-bottom: 25px;
+    top: 35vh;
+    right:10vh;
 }
 #panneau-identification h3{
+    position: relative;
+    text-align: right;
     font-size:8vh;
-    padding-bottom: 10px;
+    top: 50vh;
+    padding-bottom: 2vh;
+    right:10vh;
 }
 
 /*** panneau-udem ***/

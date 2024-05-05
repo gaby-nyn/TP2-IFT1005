@@ -1,0 +1,36 @@
+#panneau-nasa {
+    background-color: black;
+}
+
+#panneau-nasa h3{
+    position: absolute;
+    font-size:3vh;
+    top: 7vh;
+    left: 20vh;
+}
+
+#switch {
+    position:absolute;
+    top: 5vh;
+}
+
+#pod {
+    position: absolute;
+    height: 60%;
+    top:12vh;
+    left: 40vh;
+}
+
+#description {
+    text-align: justify;
+    position: absolute;
+    font-size:2vh;
+    bottom: 5vh;
+    left: 40vh;
+    height: auto;
+    width: 50%;
+}
+
+.hidden {
+    display: none;
+}
